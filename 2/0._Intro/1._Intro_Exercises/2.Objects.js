@@ -1,3 +1,4 @@
+console.log("")
 console.log("Objects")
 // --------------------------------------
 // Objects

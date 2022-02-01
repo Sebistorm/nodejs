@@ -1,13 +1,14 @@
+console.log("")
 console.log("Arrays")
 // --------------------------------------
 // Arrays, for loops
 // --------------------------------------
 // Exercise 1 - Array Positioning
-
+{
 const letters = ["a","b","c"];
 // show b in the console 
 console.log(letters[1]);
-
+}
 // --------------------------------------
 // Exercise 2 - Array Positioning
 
@@ -70,7 +71,7 @@ console.log(dinnerTray);
 
 const lettersExpanded = ["a","b","c", "d", "e", "f", "g", "h"];
 // log every second char in the array starting from b
-for (i = 1; i < lettersExpanded.length; i+=2) {
+for (let i = 1; i < lettersExpanded.length; i+=2) {
     console.log(lettersExpanded[i]);
 }
 
@@ -83,7 +84,7 @@ const numbers  = [5, 3, 2, 7, 11, 12, 0, -20, 6];
 const discardedNumbers = [];
 
 // log the element if the number is above 6 or below 0
-for (k = 0; k < numbers.length; k++) {
+for (let k = 0; k < numbers.length; k++) {
     if(numbers[k] > 6 || numbers[k] < 0) {
         console.log(numbers[k])
     }
