@@ -1,3 +1,4 @@
+console.log("Strings");
 // --------------------------------------
 // Exercise 1 - Add numbers from string to float
 
@@ -6,8 +7,7 @@ const numberTwo = "2.30";
 
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
-
-
+console.log(parseFloat(numberOne) + parseFloat(numberTwo));
 // --------------------------------------
 
 
@@ -16,6 +16,9 @@ const numberTwo = "2.30";
 
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
+
+let total1 = parseFloat(anotherNumberOne) + parseFloat(anotherNumberTwo);
+console.log(total1.toFixed(2));
 
 
 // --------------------------------------
@@ -26,7 +29,8 @@ const two = 45;
 const three = 98;
 
 // Show in the console the avg. with 5 decimals
-
+let total2 = one + two + three;
+console.log((total2 / 3).toFixed(5));
 
 
 
@@ -36,6 +40,7 @@ const three = 98;
 
 const letters = "abc";
 // Get me the character "c"
+console.log(letters[2]);
 
 
 
@@ -46,7 +51,7 @@ const letters = "abc";
 const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
-
+console.log(fact.replace("javascript", "Javascript"))
 
 // --------------------------------------
 
